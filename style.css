@@ -1,6 +1,22 @@
 body{
     font-family: 'Inter', sans-serif;
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
     background: #e5e5e5;
+}
+::placeholder{
+    color: darkblue;
+}
+
+#ingreso-texto{
+    background: #e5e5e5;
+    position: absolute;
+    border: none;
+    width: 577px;
+    height: 48px;
+    left: 200px;
+    top: 100px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
 }
 
