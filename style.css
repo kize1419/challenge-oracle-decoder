@@ -11,12 +11,127 @@ body{
     background: #e5e5e5;
     position: absolute;
     border: none;
-    width: 577px;
-    height: 48px;
-    left: 200px;
+    width: 600px;
+    height: 350px;
+    left: 50px;
     top: 100px;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 20px;
     line-height: 150%;
+    resize: none;
+    border-radius: 30px;
 }
 
+.btn-encriptar{
+    
+
+    text-align: center;
+    color: white;
+
+    justify-content: center;
+    display: flexbox;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    width: 278px;
+    height: 67px;
+
+    /* Dark blue/dark-blue-300 */
+
+    background: #0A3871;
+    border-radius: 24px;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    margin-top: 510px;
+    margin-left: 50px;
+
+
+    
+}
+
+.btn-desencriptar{
+    text-align: center;
+    color: darkblue;
+    justify-content: center;
+    display: flexbox;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    width: 278px;
+    height: 67px;
+
+    /* Dark blue/dark-blue-300 */
+
+    /* Light gray */
+
+    background: #D8DFE8;
+    /* Dark blue/dark-blue-300 */
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    position: left;
+
+    margin-top: 510px;
+    margin-left: 50px;
+}
+
+.btn-copiar{
+    text-align: center;
+    color: darkblue;
+    justify-content: center;
+    display: flexbox;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    width: 278px;
+    height: 67px;
+
+    /* Light gray */
+
+    background: e5e5e5;
+    /* Dark blue/dark-blue-300 */
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    position: left;
+
+    margin-top: 510px;
+    margin-left: 270px;
+    position: absolute;
+    display: flexbox;
+}
+
+#texto-generado{
+    position: absolute;
+    background: white;
+    border: none;
+    width: 500px;
+    height: 350px;
+    /* left: 800px;
+    top: 50px; */
+    font-weight: 400;
+    font-size: 20px;
+/*     line-height: 150%;
+ */ resize: none;
+    border-radius: 30px;
+    margin-top: 100px;
+    margin-left: 150px;
+    
+}
