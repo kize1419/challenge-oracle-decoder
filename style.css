@@ -2,7 +2,7 @@
     background: #f3f3f3;
     font-family: 'Inter' ;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 28px;
     line-height: 100%;
 }
 .logo{
@@ -40,8 +40,8 @@ main{
     margin-left: 98px;
     margin-top: 20px;
     padding-left: 20px;
-    position: fixed;
-    height: 580px;
+    position: absolute;
+    height: 500px;
     resize: none;
 }
 
@@ -81,9 +81,9 @@ main{
     cursor: pointer;
     height: 67px;
     margin-left: 115px;
-    margin-top: 475px;
+    margin-top: 430px;
     position: absolute;
-    width: 336px;
+    width: 298px;
     
 }
 .informacion{
