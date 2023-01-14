@@ -15,17 +15,36 @@
 
 </head>
 <body>
+    <header>
+        <img class="logo" src="imagenes/Logo.png" alt="logo de alura">
+    </header>
 
-    <textarea name="ingreso-texto" id="ingreso-texto" cols="50" rows="50" placeholder="   Ingrese el texto aqui..."></textarea>
+    <main>
+        <section>
+            <textarea name="ingreso-texto" class="ingreso-texto" cols="30" rows="10" placeholder="Ingrese el texto aqui..."></textarea>
+    
+            <div>
+                <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
+            </div>
+    
+            <div class="botones">
+                <button class="btn-encriptar">Encriptar</button>
+                <button class="btn-desencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section>
+            <textarea name="texto-generado" class="texto-generado" cols="20" rows="10"></textarea>
+            <div>
+                <button class="btn-copiar">Copiar</button>
+            </div>
+            
+        </section>
+    </main>
 
-    <button class="btn-encriptar">Encriptar</button>
-    <button class="btn-desencriptar">Desencriptar</button>
-    <button class="btn-copiar">Copiar</button>
+    <!-- <img src="imagenes/Muñeco.png" alt="Muñeco" class="muñeco">
+    
 
-    <textarea name="texto-generado" id="texto-generado" cols="100" rows="100"></textarea>
-    <img src="imagenes/Muñeco.png" alt="Muñeco" class="muñeco">
-
-    <script src="script.js"></script>
+    <script src="script.js"></script> -->
     
 </body>
 </html>
