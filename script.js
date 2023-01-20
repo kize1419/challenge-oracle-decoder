@@ -39,7 +39,7 @@ function btnDesencriptar(){
 }
 
 function desencriptar(stringDesencriptada){
-    let matrizCodigo = [["enter","e"],["imes","e"],["ai","a"],["ober","o"],["ufat","u"]]
+    let matrizCodigo = [["enter","e"],["imes","i"],["ai","a"],["ober","o"],["ufat","u"]]
     stringDesencriptada = stringDesencriptada.toLowerCase()
 
     for(let i=0; i<matrizCodigo.length; i++){
