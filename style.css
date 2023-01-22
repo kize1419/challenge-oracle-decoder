@@ -91,3 +91,33 @@ main{
     font-size: 18px;
     
 }
+/* RESPONSIVE */
+@media screen and (max-width:480px){
+    main{
+        display: block;
+    }
+    .ingreso-texto{
+        margin: auto;
+        width: 100%;
+    }
+    .botones{
+        display: block;
+        margin: auto;
+    }
+    .btn-encriptar, .btn-desencriptar{
+        justify-content: center;
+        margin-bottom: 15px;
+        width: 100%;
+        padding: auto;
+    }
+    .texto-generado{
+        width: 80%;
+        margin: auto;
+        position: absolute;
+    }
+    .btn-copiar{
+        width: 80%;
+        margin-left: auto;
+    }
+
+}
