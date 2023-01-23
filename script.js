@@ -2,20 +2,19 @@ const ingresoTexto = document.querySelector(".ingreso-texto");
 const textoGenerado = document.querySelector(".texto-generado");
 const copiarTexto = document.querySelector(".btn-copiar");
 
-
-/*La letra "e" es convertida para "enter"
+/*
+La letra "e" es convertida para "enter"
 La letra "i" es convertida para "imes"
 La letra "a" es convertida para "ai"
 La letra "o" es convertida para "ober"
 La letra "u" es convertida para "ufat" 
 */
 
-
 function btnEncriptar(){
     const textoEncriptado = encriptar(ingresoTexto.value)
     textoGenerado.value = textoEncriptado
-    ingresoTexto.value=""
-    textoGenerado.style.background = "white"
+    textoGenerado.style.background = 'rgba(255, 255, 255, .1)'
+    /* textoEncriptado.style.background = 'rgba(255, 255, 255, .1)' */
 }
 
 function encriptar(stringEncriptada){
@@ -33,8 +32,8 @@ function encriptar(stringEncriptada){
 function btnDesencriptar(){
     const textoEncriptado = desencriptar(ingresoTexto.value)
     textoGenerado.value = textoEncriptado
-    ingresoTexto.value=""
-    textoGenerado.style.background = "white"
+    textoGenerado.style.backgroundImage = 'rgba(255, 255, 255, .1)'
+    /* textoEncriptado.style.background = 'rgba(255, 255, 255, .1)' */
 }
 
 function desencriptar(stringDesencriptada){
@@ -54,3 +53,10 @@ function btnCopiar(){
     document.execCommand('selectAll')
     document.execCommand('copy')
 }
+
+function btnLimpiar(){
+    ingresoTexto.value=""
+
+    textoGenerado.style.display = 'block'
+}
+
